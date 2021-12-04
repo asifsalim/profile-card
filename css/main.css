@@ -53,13 +53,13 @@ body {
 
 .top-svg,
 .bottom-svg {
-  width: 65rem;
+  width: 85rem;
 }
 
 @media (max-width: 50rem) {
   .top-svg,
   .bottom-svg {
-    width: 40rem;
+    width: 60rem;
   }
 }
 
@@ -117,6 +117,7 @@ body {
       justify-content: space-around;
   padding: 2rem 0;
   text-align: center;
+  list-style: none;
 }
 
 .img-thumbnail {
