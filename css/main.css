@@ -56,13 +56,6 @@ body {
   width: 85rem;
 }
 
-@media (max-width: 50rem) {
-  .top-svg,
-  .bottom-svg {
-    width: 60rem;
-  }
-}
-
 .top-svg {
   position: absolute;
   top: 0;
