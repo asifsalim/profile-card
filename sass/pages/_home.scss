@@ -1,0 +1,39 @@
+.card{
+    width: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0;
+}
+.card-img-top{
+    object-fit: cover;
+    height: 12rem;
+}
+.card-body{
+    position: relative;
+    padding: 0;
+    &__text-top-section{
+        margin-top: 20%;
+        text-align: center;
+        padding-bottom:5%;
+        border-bottom: 1px solid rgba($color-grey-text,.4);
+    }
+    &__text-bottom-section{
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 0;
+        text-align: center;
+    }
+}
+.img-thumbnail{
+    border-radius: 100%;
+    position: absolute;
+    top: -25%;
+    left: 32%;
+    border: hidden;
+    padding: 5px;
+
+}

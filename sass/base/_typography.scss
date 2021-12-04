@@ -1,0 +1,23 @@
+.primary-header,
+.secondary-text{
+    color: $color-font-title;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.text{
+    color: $color-grey-text;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.grey-color{
+    color:$color-grey-text;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.paragraph-text{
+    color: $color-grey-text;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
